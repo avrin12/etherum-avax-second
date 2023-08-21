@@ -1,0 +1,59 @@
+.transaction-container{
+    border: 1px solid red;
+    padding: 1rem;
+    margin: auto;
+}
+
+.button-container{
+    padding: 30px;
+    margin: 10xp;
+}
+
+.button-container > button{
+    background-color: transparent;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    height: 2rem;
+    width: 10rem;
+    transition: 700ms all;
+}
+
+.button-container > button:hover{
+    background-color: rgba(194, 194, 194, 0.623);
+}
+
+.button-container > button:active{
+    background-color: rgb(81, 235, 81);
+}
+
+.input-container{
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.input-container > input{
+    font-size: 1.4rem;
+}
+
+.table-container{
+    border:2px solid red;
+    padding: 1rem;
+}
+
+.table-container table{
+    border: 2px solid red;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-container table td{
+    border: 1px solid red;
+}
